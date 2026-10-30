@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Class from "./Class";
+import Conditional from "./Conditional";
+import Dom from "./Dom";
+import Function from "./Function";
+import Jsx from "./Jsx";
+import Key from "./Key";
+import Prop from "./Props";
+import State from "./State";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>React JS</h1>
+      <Jsx />
+      <Dom />
+
+      <Function />
+      <Class />
+
+      <Prop name={"Durga"} />
+
+      <State />
+
+      <Conditional />
+
+      <Key />
     </div>
   );
 }
-
-export default App;
